@@ -69,7 +69,7 @@ function updateTextCoordinates() {
     const totalHeight = fontSize * LINE_SPACING * 2; // Espacio para dos líneas de texto
     const centerY = canvas.height / 2;
 
-    const textPoints1 = getTextCoordinates('Este es un detallito ya que te iras... Perdon la impuntualidad', fontSize, centerY - totalHeight / 1);
+    const textPoints1 = getTextCoordinates('ya que te iras... Perdon la impuntualidad', fontSize, centerY - totalHeight / 1);
     const textPoints2 = getTextCoordinates('Enserio me hubiese gustado llegar antes a tu vida.🌻', fontSize, centerY + totalHeight / 1);
 
     textPoints = textPoints1.concat(textPoints2);
